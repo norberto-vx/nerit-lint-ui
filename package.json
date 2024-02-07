@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-nerit-lint-api",
+  "name": "eslint-config-nerit-lint-ui",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {    
+  "dependencies": {
     "eslint": "^8.20.0",
     "@typescript-eslint/eslint-plugin": "^5.31.0",
     "@typescript-eslint/parser": "^5.31.0",
