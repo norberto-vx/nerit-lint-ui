@@ -10,6 +10,8 @@ module.exports = {
         'eslint-plugin-import-helpers'      
     ],
     extends: [
+        'plugin:@typescript-eslint/eslint-recommended',
+        'plugin:@typescript-eslint/recommended' ,
         'nerit-lint-api'     
     ]
 
