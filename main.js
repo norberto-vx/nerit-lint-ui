@@ -5,20 +5,13 @@ module.exports = {
         tsconfigRootDir: __dirname,
     },
     parser: '@typescript-eslint/parser',
-    settings: {
-        react: {
-            version: 'detect',
-        },
-    },
-    env: {
-        'node': true,
-    },
     plugins: [
-        '@typescript-eslint/eslint-plugin',
-        'react'
+        '@typescript-eslint',
+        'eslint-plugin-import-helpers'
     ],
     extends: [
-        'eslint:recommended'
+        'plugin:@typescript-eslint/eslint-recommended',
+        'plugin:@typescript-eslint/recommended'
     ],
 
     rules: {
