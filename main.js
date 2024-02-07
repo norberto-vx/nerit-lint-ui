@@ -7,14 +7,12 @@ module.exports = {
     parser: '@typescript-eslint/parser',
     plugins: [
         '@typescript-eslint',
-        'eslint-plugin-import-helpers'
+        'eslint-plugin-import-helpers',
+        'nerit-lint-api'
     ],
     extends: [
         'plugin:@typescript-eslint/eslint-recommended',
-        'plugin:@typescript-eslint/recommended',
-        'nerit-lint-api'
-    ],
-
-    rules:{}
+        'plugin:@typescript-eslint/recommended'       
+    ]
 
 }
