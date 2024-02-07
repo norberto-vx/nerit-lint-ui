@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config-nerit-lint-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.11.0",
+    "@typescript-eslint/parser": "^2.11.0",
+    "eslint-plugin-react": "^7.17.0",
+    "lint-staged": "^10.0.4",
+    "eslint-config-nerit-lint-api": "git+https://github.com/nerit-sistemas/nerit-lint-api.git"
+  }
+}
