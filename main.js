@@ -16,9 +16,10 @@ module.exports = {
 
     rules: {
 
-        // Permite apenas console info 
-        'no-console': ['warn', { 'allow': ['info'] }],
-        'semi': ['error', 'never'],
+        'quotes': [
+            'error',
+            'single'
+        ],
 
 
 
