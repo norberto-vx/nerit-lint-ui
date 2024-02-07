@@ -18,6 +18,9 @@ module.exports = {
 
         // Permite apenas console info 
         'no-console': ['warn', { 'allow': ['info'] }],
+        'semi': ['error', 'never'],
+
+
 
     }
 }
