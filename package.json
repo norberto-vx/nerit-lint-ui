@@ -17,7 +17,6 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-import-helpers": "^1.2.1",
     "eslint-plugin-react": "^7.17.0",
-    "lint-staged": "^10.0.4",
-    "eslint-config-nerit-lint-api": "git+https://github.com/nerit-sistemas/nerit-lint-api.git"
+    "lint-staged": "^10.0.4"
   }
 }
