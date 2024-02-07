@@ -18,8 +18,7 @@ module.exports = {
         'react'
     ],
     extends: [
-        'eslint:recommended',
-     
+        'eslint:recommended',     
     ],
 
     rules: {
